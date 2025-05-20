@@ -1,7 +1,7 @@
 "use strict";
 //Task #1
 let str = "Hi"
-const addExclamation = str => { 
+const addExclamation = str => {
   str = str.split()
   str.push("!")
   return str.join('');
@@ -16,8 +16,8 @@ console.log(reverseWords(sentence))
 //Task #3
 let arr = [1, 2, 3]
 const squareAll = arr => {
-  for(let i=0; i<arr.length ; i++)
-    arr[i] = Math.pow(arr[i],2)
+  for (let i = 0; i < arr.length; i++)
+    arr[i] = Math.pow(arr[i], 2)
   return arr
 };
 console.log(squareAll(arr))
@@ -33,3 +33,5 @@ let nums2 = [3, -2, 0]
 const allPositive = numbers => numbers.every(elem => elem > 0);
 console.log(allPositive(nums))
 console.log(allPositive(nums2))
+
+//Igor Nikonov, Saher Haddad
